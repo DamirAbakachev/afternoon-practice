@@ -42,5 +42,5 @@ print(trans_list(prog_lang))
 #('Python,Java,JavaScript,Scala', '3.8,13,2019,2.13')
 
 def tupl_comma(prog_lang):
-    return functools.reduce(lambda x,y: x+y, prog_lang)+functools.reduce(lambda x,y: y+x, prog_lang)
+    return functools.reduce(lambda x,y: (f'{x[0]},{y[0]}',f'{x[1]},{y[1]}'), prog_lang)
 print(tupl_comma(prog_lang))
