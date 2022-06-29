@@ -19,3 +19,7 @@ for letter in unique_letters('hello'):
     print(letter, end=' ')
 # Expected output
 # h e l o
+
+
+
+Helllo I am typing stuff.
